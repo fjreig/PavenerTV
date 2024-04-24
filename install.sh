@@ -15,7 +15,7 @@ sudo apt-get update -y
 # Install Docker
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-# Install
+# Install otros paquetes necesarios
 sudo apt-get install -y net-tools nano
 
 # Crear servicio
