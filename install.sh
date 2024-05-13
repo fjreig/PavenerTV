@@ -8,6 +8,9 @@ sudo chmod a+r /etc/apt/keyrings/docker.asc
 # Enable ssh
 sudo apt install openssh-server -y
 
+# Set Madrid timezone
+sudo timedatectl set-timezone Europe/Madrid
+
 # Add the repository to Apt sources:
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
