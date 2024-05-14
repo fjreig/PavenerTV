@@ -29,7 +29,7 @@ sudo service docker start
 
 # Descargar imagenes necesarias
 
-docker image pull python:3.9-slim
 docker image pull php:8-fpm
 docker image pull mysql:8.0
 docker image pull frreimon/pavener_tv:1.0
+docker image pull nginx:latest
