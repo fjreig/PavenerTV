@@ -31,5 +31,6 @@ sudo service docker start
 
 docker image pull php:8-fpm
 docker image pull mysql:8.0
-docker image pull frreimon/pavener_tv:1.0
+docker image pull frreimon/api:2.2
+docker image pull nodered/node-red
 docker image pull nginx:latest
